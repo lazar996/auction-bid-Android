@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:key="user_settings"
+        android:title="User settings">
+
+        <EditTextPreference
+            android:title="User name"
+            android:dialogTitle="user name"
+            android:key="name"
+            />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="splash_settings"
+        android:title="Splash screen settings">
+
+        <CheckBoxPreference
+            android:id="@+id/splashCheckBox"
+            android:defaultValue="true"
+            android:key="pref_splashVisibility"
+            android:title="Display splash screen" />
+
+        <ListPreference
+            android:id="@+id/splashListPreference"
+            android:defaultValue="2"
+            android:dependency="pref_splashVisibility"
+            android:dialogTitle="Splash screen interval"
+            android:entries="@array/splash_duration_entries"
+            android:entryValues="@array/splash_duration_values"
+            android:key="pref_splash_duration_list"
+            android:summary="Splash screen duration on startup"
+            android:title="Duration" />
+
+    </PreferenceCategory>
+
+
+
+</PreferenceScreen>

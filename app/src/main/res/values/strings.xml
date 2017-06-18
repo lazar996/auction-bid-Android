@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">domaci</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="drawer_open">drawer open</string>
+    <string name="drawer_close">drawer close</string>
+    <string name="detalji">Detalji o Aukcijama</string>
+    <string name="detalji1">Detalji o Proizvodu</string>
+    <string name="mr_bean">Mr. Bean</string>
+    <string name="title_activity_bid_list">BidList</string>
+    <string name="price">Price:</string>
+    <string name="date">Date</string>
+    <string name="user">User:</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="cancel">Cancel</string>
+    <string name="login">LogIn</string>
+    <string name="name">Name:</string>
+    <string name="email">Email:</string>
+    <string name="password_user">Password</string>
+    <string name="address">Address</string>
+    <string name="phone">Phone</string>
+    <string name="naziv">Naziv:</string>
+    <string name="pocetak_aukcije">Pocetak aukcije:</string>
+    <string name="pocetna_cena">Pocetna cena:</string>
+    <string name="kraj_aukcije">Kraj aukcije</string>
+    <string name="description">description:</string>
+</resources>
